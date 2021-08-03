@@ -3,8 +3,10 @@
 	src: local('Android Robot'), url('../fonts/ANDROID-ROBOT.woff') format('woff');
 }
 
-.headline {
+.headline,
+h1 {
 	font-family: 'Android Robot';
-	font-size: 6em;
+	font-size: 8em !important;
 	color: white;
+	margin: 1rem 0;
 }

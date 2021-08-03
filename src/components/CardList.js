@@ -10,7 +10,7 @@ const CardList = ({ robots }) => {
                 robots.map(user => {
                     return (
                         <Card 
-                        key={user.key} 
+                        key={user.address.geo.lat} 
                         id={user.id} 
                         name={user.name} 
                         email={user.email}   
